@@ -8,11 +8,15 @@ Table of Contents
 
 2)Goal
 
-3)Project Architecture
+3)Technology Stack
 
-4)ER Diagram
+4)Bucket Calculation
 
-5)Analysis
+5)Project Architecture
+
+6)ER Diagram
+
+7)Analysis
 
 <h2>1. Introduction</h2>
 
@@ -49,7 +53,7 @@ Block Size in HDFS = 128 MB Size of review dataset = 5120 MB 5120/128 = 40 2^x =
 ![image](https://user-images.githubusercontent.com/100192167/159221478-76e29e29-176c-41de-b690-4507d594d1a5.png)
 
 
-<h3>Analysis</h3>
+<h3>7. Analysis</h3>
 
 <h4>Top 10 Companies with good ratings</h4>
 

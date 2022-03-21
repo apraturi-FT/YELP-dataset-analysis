@@ -28,6 +28,16 @@ This hadoop project is to apply some data engineering principles to Yelp Dataset
 
 The main goal of this project is to provide an insight to the future investor/owner, on where and what business to invest in or where to start a new business based on the customer satisfaction.
 
+a) Top 10 Business to invest in with highest rating.
+
+b) Least 10 Business to invest in with least rating and need improvement.
+
+c) Number of Business that come under each rating.
+
+d) Business with average rating less than 2.5 and the review associated with it.
+
+e) Business with average rating greater than 4.5 and the review associated with it.
+
 <h2>3. Datasets</h2>
 
 a) Review dataset - https://www.kaggle.com/yelp-dataset/yelp-dataset?select=yelp_academic_dataset_review.json

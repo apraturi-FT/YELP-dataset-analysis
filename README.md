@@ -4,29 +4,42 @@ Yelp dataset is used to research and analysis in investments on company, based o
 
 Table of Contents
 
-1)Introduction/n
+1)Introduction
+
 2)Goal
+
 3)Project Architecture
+
 4)ER Diagram
+
 5)Analysis
 
 <h2>1. Introduction</h2>
+
 This hadoop project is to apply some data engineering principles to Yelp Dataset in the areas of processing, storage, and retrieval. In this Project, we will use the yelp review dataset to analyze businesses and reviews over a period of time. We will try to see which all business have highest rating and lowest rating. Beyond processing this data, we will display the data in terms of graphs to let the leadership understand data in different dimensions.
 
 <h2>2. GOAL</h2>
-The main goal of this project is to provide an insight to the future investo/owner, on where and what business to invest in or where to start a new business based on the customer satisfaction.
+
+The main goal of this project is to provide an insight to the future investor/owner, on where and what business to invest in or where to start a new business based on the customer satisfaction.
 
 <h2>3. Technology Stack</h2>
+
 a. Mysql
+
 b. HDFS 
+
 c. Hive 
+
 d. Pyspark 
+
 e. Flask
 
 <h2>4. Bucket Calculation</h2>
+
 Block Size in HDFS = 128 MB Size of review dataset = 5120 MB 5120/128 = 40 2^x = 40 where x will be number of buckets Hence we will take number of bucket = 6 Size of user dataset = 3205 MB 3205/128 = 25 2^x = 25 where x will be number of buckets Hence we will take number of bucket = 5
 
 <h2>5. Project Architecture</h2>
+
 ![image](https://user-images.githubusercontent.com/100192167/159221457-c66f7ed4-3429-46eb-8f92-71cb4372e8b8.png)
 
 
@@ -51,3 +64,14 @@ Block Size in HDFS = 128 MB Size of review dataset = 5120 MB 5120/128 = 40 2^x =
 <h4>Count of stars of each companies on which investment can be made</h4>
 
 ![image](https://user-images.githubusercontent.com/100192167/159221556-6f937936-505d-4a3b-ac3e-ca9b11a75690.png)
+
+<h4>Companies with rating less than 2.5 </h4>
+
+<img width="922" alt="image" src="https://user-images.githubusercontent.com/100192167/159222127-bf85fefb-f6f2-4503-8d5f-3a093cac1415.png">
+
+<h4>Companies with rating greater than 4.5 </h4>
+
+<img width="913" alt="image" src="https://user-images.githubusercontent.com/100192167/159222216-f21bbcbd-82b2-4453-bc84-41070b81e1d5.png">
+
+
+

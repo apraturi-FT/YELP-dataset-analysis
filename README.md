@@ -8,15 +8,17 @@ Table of Contents
 
 2)Goal
 
-3)Technology Stack
+3)Datasets
 
-4)Bucket Calculation
+4)Technology Stack
 
-5)Project Architecture
+5)Bucket Calculation
 
-6)ER Diagram
+6)Project Architecture
 
-7)Analysis
+7)ER Diagram
+
+8)Analysis
 
 <h2>1. Introduction</h2>
 
@@ -26,7 +28,13 @@ This hadoop project is to apply some data engineering principles to Yelp Dataset
 
 The main goal of this project is to provide an insight to the future investor/owner, on where and what business to invest in or where to start a new business based on the customer satisfaction.
 
-<h2>3. Technology Stack</h2>
+<h2>3. Datasets</h2>
+
+a) Review dataset - https://www.kaggle.com/yelp-dataset/yelp-dataset?select=yelp_academic_dataset_review.json
+
+b) Business dataset - https://www.kaggle.com/yelp-dataset/yelp-dataset?select=yelp_academic_dataset_business.json
+
+<h2>4. Technology Stack</h2>
 
 a. Mysql
 
@@ -38,22 +46,22 @@ d. Pyspark
 
 e. Flask
 
-<h2>4. Bucket Calculation</h2>
+<h2>5. Bucket Calculation</h2>
 
 Block Size in HDFS = 128 MB Size of review dataset = 5120 MB 5120/128 = 40 2^x = 40 where x will be number of buckets Hence we will take number of bucket = 6 Size of user dataset = 3205 MB 3205/128 = 25 2^x = 25 where x will be number of buckets Hence we will take number of bucket = 5
 
-<h2>5. Project Architecture</h2>
+<h2>6. Project Architecture</h2>
 
 ![image](https://user-images.githubusercontent.com/100192167/159221457-c66f7ed4-3429-46eb-8f92-71cb4372e8b8.png)
 
 
-<h2>6. ER Diagram</h2>
+<h2>7. ER Diagram</h2>
 
 
 ![image](https://user-images.githubusercontent.com/100192167/159221478-76e29e29-176c-41de-b690-4507d594d1a5.png)
 
 
-<h3>7. Analysis</h3>
+<h3>8. Analysis</h3>
 
 <h4>Top 10 Companies with good ratings</h4>
 

@@ -54,6 +54,10 @@ c. Pyspark
 
 d. Flask
 
+e. Html
+
+f. Plotly
+
 <h2>5. Bucket Calculation</h2>
 
 Block Size in HDFS = 128 MB Size of review dataset = 5120 MB 5120/128 = 40 2^x = 40 where x will be number of buckets Hence we will take number of bucket = 6 Size of user dataset = 3205 MB 3205/128 = 25 2^x = 25 where x will be number of buckets Hence we will take number of bucket = 5

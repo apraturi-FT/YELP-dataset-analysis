@@ -46,15 +46,13 @@ b) Business dataset - https://www.kaggle.com/yelp-dataset/yelp-dataset?select=ye
 
 <h2>4. Technology Stack</h2>
 
-a. Mysql
+a. HDFS 
 
-b. HDFS 
+b. Hive 
 
-c. Hive 
+c. Pyspark 
 
-d. Pyspark 
-
-e. Flask
+d. Flask
 
 <h2>5. Bucket Calculation</h2>
 
